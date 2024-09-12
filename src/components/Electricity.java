@@ -1,7 +1,10 @@
 package components;
 
+/**
+ * Класс "электрика"
+ */
 public class Electricity {
-    private boolean isServiceability;
+    private boolean isServiceability; //работоспособность
 
     public Electricity() {
     }

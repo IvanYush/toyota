@@ -2,15 +2,11 @@ package model;
 
 import components.*;
 
+/**
+ * Абстрактный класс "легковой автомобиль"
+ */
 public abstract class LightCar extends Car {
     private boolean cruise;
-
-    public LightCar(String color, int maxSpeed, String transmissionType, boolean isRide, Headlights headlights,
-                    Wheel wheel1, Wheel wheel2, Wheel wheel3, Wheel wheel4, GasTank gasTank, Electricity electricity,
-                    Engine engine, boolean cruise) {
-        super(color, maxSpeed, transmissionType, isRide, headlights, wheel1, wheel2, wheel3, wheel4, gasTank, electricity, engine);
-        this.cruise = cruise;
-    }
 
     public LightCar(String color, int maxSpeed, String transmissionType, boolean isRide, Headlights headlights,
                     Wheel[] wheels, GasTank gasTank, Electricity electricity, Engine engine, boolean cruise) {

@@ -1,7 +1,10 @@
 package components;
 
+/**
+ * Класс "топливный бак"
+ */
 public class GasTank {
-    private int fuelLevel;
+    private int fuelLevel; //уровень топлива
 
     public GasTank() {
     }

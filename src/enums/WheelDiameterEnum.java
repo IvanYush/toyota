@@ -1,5 +1,8 @@
 package enums;
 
+/**
+ * Enum на диаметр шин
+ */
 public enum WheelDiameterEnum {
     WHEEL_DIAMETER_16(16),
     WHEEL_DIAMETER_17(17),

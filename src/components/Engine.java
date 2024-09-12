@@ -1,7 +1,10 @@
 package components;
 
+/**
+ * Класс "двигатель"
+ */
 public class Engine {
-    private boolean isServiceability;
+    private boolean isServiceability; //работоспособность
 
     public Engine() {
     }

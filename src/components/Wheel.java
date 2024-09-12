@@ -2,9 +2,12 @@ package components;
 
 import enums.WheelDiameterEnum;
 
+/**
+ * Класс "колесо"
+ */
 public class Wheel {
-    private boolean isPuncture;
-    private WheelDiameterEnum diameter;
+    private boolean isPuncture; //наличие прокола
+    private WheelDiameterEnum diameter; //размер
 
     public Wheel() {
     }
@@ -21,7 +24,4 @@ public class Wheel {
     public void setPuncture(boolean puncture) {
         isPuncture = puncture;
     }
-
-    //сделать проверку. Если колесо null, то машина не должна поехать. И сделать проверку, что все колеса одного диаметра.
-    //через exception.
 }

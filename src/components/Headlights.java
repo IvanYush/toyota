@@ -1,7 +1,10 @@
 package components;
 
+/**
+ * Класс "фары"
+ */
 public class Headlights {
-    private boolean isServiceability;
+    private boolean isServiceability; //работоспособность
 
     public Headlights() {
     }
